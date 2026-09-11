@@ -167,8 +167,10 @@ BCI %>%
 
 # Résultats
 
+::: {#fig-Profils}
 ```{r}
 #| label: Profils
+ggtheme_set()
 paracou6 %>% 
   # Vecteur des noms d'espèce de chaque arbre
   pull(spName) %>% 
@@ -185,8 +187,14 @@ paracou6 %>%
   # Figure
   autoplot() +
   # Titre de la légende
-  labs(color = "Forêt", linetype = "Forêt")
+  labs(color = "Forêt", linetype = "Forêt") +
+  #suppression du cartouche
+theme(legend.position = "none")
 ```
+
+Profils de diversité de Paracou parcelle 6 et BCI (courbe rouge).
+La figure représente le nombre effectif d'espèces (nombre de Hill) en fonction de l'ordre de la diversité.
+:::
 
 # Discussion
 
