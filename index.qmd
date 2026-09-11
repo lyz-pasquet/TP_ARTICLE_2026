@@ -128,6 +128,9 @@ set.seed(973)
 
 # Matériel et méthode
 
+- Comparer la diversité de Paracou [@Gourlet-Fleury2004] et de BCI [@Raby2017].
+- Les analyses sont réalisées avec R [@R] et le package divent [@Marcon2026a].
+
 ## Présentation du site de Paracou.
 
 La forêt de Parou est située en Guyane française.
