@@ -5,6 +5,6 @@
 
 *.html
 *.pdf
-*log
+*.log
 *_files/
 index_cache/
