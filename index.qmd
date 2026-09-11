@@ -145,6 +145,10 @@ paracou6 <- read_csv2("data/Paracou6.csv")
 
 BCI est une forêt secondarisée [@Raby2017].
 
+Les données sont dans le package *vegan* [@Oksanen2012].
+
+Vérification des données : courbe Rang-abondance [@Whittaker1965].
+
 ```{r}
 #| label: BCI
 library("vegan")
