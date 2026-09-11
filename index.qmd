@@ -44,7 +44,7 @@ execute:
   # Show warnings
   warning: false
   # Cache code results
-  cache: false
+  cache: true
 # Template specific
 journalinfo: "Publication reference"
 archive: "DOI: xxx/xx"
@@ -121,10 +121,13 @@ set.seed(973)
 ```
 
 # Introduction
+La question de la diversité des forêts tropicales fascine les écologues parce qu'elle a des enjeux très importants [@Gibson2011].
+est qu'elle est difficile à comprendre [@Wright2002b].
 
 # Matériel et méthode
 
-- Présentation du site de Paracou. La forêt de Parou est située en Guyane française.
+## Présentation du site de Paracou.
+La forêt de Parou est située en Guyane française.
 
 ```{r}
 #| label: Paracou
@@ -132,7 +135,8 @@ library("tidyverse")
 paracou6 <- read_csv2("data/Paracou6.csv")
 ```
 
-- Présentation du site de BCI.
+## Présentation du site de BCI.
+BCI est une forêt secondarisée [@Raby2017].
 
 ```{r}
 #| label: BCI
