@@ -5,4 +5,7 @@
 
 *.html
 *.pdf
+*log
+*tex
 *_files/
+
