@@ -20,7 +20,6 @@ author:
         city: Montpellier
         country: France
         postal-code: 34000
-    orcid: 0000-0000-0000-0000
     email: lyz.pasquet2016@gmail.com
     url: https://example.org/
 # Abstract and Keywords
@@ -125,7 +124,7 @@ set.seed(973)
 
 # Matériel et méthode
 
-- Présentation du site de Paracou.
+- Présentation du site de Paracou. La forêt de Parou est située en Guyane française.
 
 ```{r}
 #| label: Paracou
@@ -152,6 +151,7 @@ BCI %>%
 ```
 
 # Résultats
+
 ```{r}
 #| label: Profils
 paracou6 %>% 
@@ -172,6 +172,5 @@ paracou6 %>%
   # Titre de la légende
   labs(color = "Forêt", linetype = "Forêt")
 ```
-
 
 # Discussion
